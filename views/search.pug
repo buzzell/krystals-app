@@ -1,0 +1,20 @@
+html
+  head
+    meta(name="viewport",content="width=device-width, initial-scale=1")
+    title Krystal's App - #{q}
+    link(rel='stylesheet',href='/css/search.css')
+
+  body
+    ul
+      for track in tracks
+        li
+          .album-art
+            img(src=track.album_art)
+          .track-info
+            h1= track.title
+            p= track.artists
+            p= track.album
+          .track-download
+            a(href=track.preview_url,target="_blank") 
+              | DOWNLOAD
+              span 30s preview

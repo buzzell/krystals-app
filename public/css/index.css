@@ -1,0 +1,45 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+}
+
+div {
+  margin: auto;
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  font-size: 14px;
+  padding: 6px 6px;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin-right: 15px;
+  outline: none;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid #4444cc;
+  border-radius: 17px;
+  padding: 3px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #4444cc;
+  width: 120px;
+  cursor: pointer;
+  outline: none;
+}

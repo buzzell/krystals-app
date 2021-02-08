@@ -1,0 +1,60 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+li {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.album-art img {
+  display: block;
+}
+
+.track-info {
+  flex: 1;
+  padding: 0 10px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.track-info h1 {
+  font-size: 20px;
+  color: #333;
+  font-family: sans-serif;
+}
+
+.track-info p {
+  font-size: 13px;
+  color: #777;
+}
+
+.track-download a {
+  display: block;
+  background-color: transparent;
+  border: 2px solid #33aa33;
+  padding: 6px 12px;
+  border-radius: 16px;
+  color: #33aa33;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.track-download a span {
+  display: block;
+  font-size: 10px;
+  font-weight: normal;
+  color: #999;
+}
